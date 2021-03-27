@@ -1,4 +1,4 @@
-package com.wangyu1745.springcloud.dao;
+package com.wnagyu1745.springcloud.dao;
 
 import com.wangyu1745.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
@@ -11,5 +11,5 @@ import org.apache.ibatis.annotations.Param;
 @Mapper
 public interface PaymentDao {
     public int create(Payment payment);
-    public Payment getPaymentById(Long id);
+    public Payment getPaymentById(@Param("id") Long id);
 }

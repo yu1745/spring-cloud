@@ -1,8 +1,8 @@
-package com.wangyu1745.springcloud.controller;
+package com.wnagyu1745.springcloud.controller;
 
 import com.wangyu1745.springcloud.entities.CommonResult;
 import com.wangyu1745.springcloud.entities.Payment;
-import com.wangyu1745.springcloud.service.PaymentService;
+import com.wnagyu1745.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
